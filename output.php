@@ -4,7 +4,8 @@
     </h2>
     <br>
     <?php
-        $bst = $_POST["bst"]
+        $ttlbst="";
+        $bst = $_POST["bst"];
         $ttlbst = $bst * 50;
 
 
