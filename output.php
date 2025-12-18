@@ -31,8 +31,8 @@
         $ttlegg = $egg * 5;
 
         // this is the code for total dhal
-        $egg = $_POST["egg"];
-        $ttlegg = $egg * 5;
+        $dhl = $_POST["dhl"];
+        $ttldhl = $dhl * 75;
 
       ?>
 
@@ -46,5 +46,44 @@
         echo "$ttldhl<br>";
 
         ?>
+      
       </h3>
+      <h3>Thank you, sir/ma’am. Here’s your bill.</h3>
+      <table border = "1">
+        <tr>
+          <th>Items</th>
+          <th>INumber of Items</th>
+          <th>Total Rs.</th>
+        </tr>
+        <tr>
+          <td>Biscuit</td>
+          <td><?php echo "$bst" ?></td>
+          <td><?php echo "$ttlbst" ?></td>
+        </tr>
+        <tr>
+          <td>Biscuit</td>
+          <td><?php echo "$bst" ?></td>
+          <td><?php echo "$ttlbst" ?></td>
+        </tr>
+        <tr>
+          <td>Biscuit</td>
+          <td><?php echo "$bst" ?></td>
+          <td><?php echo "$ttlbst" ?></td>
+        </tr>
+        <tr>
+          <td>Biscuit</td>
+          <td><?php echo "$bst" ?></td>
+          <td><?php echo "$ttlbst" ?></td>
+        </tr>
+        <tr>
+          <td>Biscuit</td>
+          <td><?php echo "$bst" ?></td>
+          <td><?php echo "$ttlbst" ?></td>
+        </tr>
+        <tr>
+          <td>Biscuit</td>
+          <td><?php echo "$bst" ?></td>
+          <td><?php echo "$ttlbst" ?></td>
+        </tr>
+      </table>
 </html>
