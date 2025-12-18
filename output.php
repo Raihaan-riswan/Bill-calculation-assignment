@@ -26,7 +26,9 @@
         $mlk = $_POST["mlk"];
         $ttlmlk = $mlk * 60;
         
-        
+        // this is the code for total egg
+        $egg = $_POST["egg"];
+        $ttlegg = $egg * 5;
 
 
 
@@ -38,6 +40,7 @@
         echo "$ttlndl<br>";
         echo "$ttlbrd<br>";
         echo "$ttlmlk<br>";
+        echo "$ttlegg<br>";
 
         ?>
       </h3>
