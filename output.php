@@ -40,9 +40,7 @@ table tr:nth-child(odd) {
 }
 
   </style>
-    <h2>
-        Your total bill..
-    </h2>
+    
     <br>
     <?php
         $ttlbst = "";
@@ -75,12 +73,15 @@ table tr:nth-child(odd) {
         $dhl = $_POST["dhl"];
         $ttldhl = $dhl * 75;
 
+        // this code for total bill
+        $ttl = $ttlbrd + $ttlbst + $ttldhl + $ttlegg + $ttlmlk +$ttlndl;
+
       ?>
 
       
       
-      </h3>
-      <h3>Thank you, sir/ma’am. Here’s your bill.</h3>
+      
+      <h3><center>Thank you, sir/ma’am. Here’s your bill.</center></h3>
       <table>
         <tr>
           <th>Items</th>
@@ -121,7 +122,7 @@ table tr:nth-child(odd) {
         <tr>
           <td colspan = "2">Total bill</td>
           
-          <td><?php echo "$ttldhl" ?></td>
+          <td><?php echo "$ttl" ?></td>
         </tr>
       </table>
 </html>
