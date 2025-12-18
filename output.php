@@ -82,9 +82,14 @@
           <td><?php echo "$ttlegg" ?></td>
         </tr>
         <tr>
-          <td>Biscuit</td>
-          <td><?php echo "$bst" ?></td>
-          <td><?php echo "$ttlbst" ?></td>
+          <td>Dhal</td>
+          <td><?php echo "$dhl" ?></td>
+          <td><?php echo "$ttldhl" ?></td>
+        </tr>
+        <tr>
+          <td rows = "2">Total bill</td>
+          
+          <td><?php echo "$ttldhl" ?></td>
         </tr>
       </table>
 </html>
