@@ -30,6 +30,7 @@
         $egg = $_POST["egg"];
         $ttlegg = $egg * 5;
 
+        // this is the code for total dhal
 
 
       ?>
@@ -41,6 +42,7 @@
         echo "$ttlbrd<br>";
         echo "$ttlmlk<br>";
         echo "$ttlegg<br>";
+        echo "$ttldhl<br>";
 
         ?>
       </h3>
