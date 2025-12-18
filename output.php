@@ -87,7 +87,7 @@
           <td><?php echo "$ttldhl" ?></td>
         </tr>
         <tr>
-          <td rows = "2">Total bill</td>
+          <td colspan = "2">Total bill</td>
           
           <td><?php echo "$ttldhl" ?></td>
         </tr>
