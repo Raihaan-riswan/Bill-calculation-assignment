@@ -77,9 +77,9 @@
           <td><?php echo "$ttlmlk" ?></td>
         </tr>
         <tr>
-          <td>Biscuit</td>
-          <td><?php echo "$bst" ?></td>
-          <td><?php echo "$ttlbst" ?></td>
+          <td>Egg</td>
+          <td><?php echo "$egg" ?></td>
+          <td><?php echo "$ttlegg" ?></td>
         </tr>
         <tr>
           <td>Biscuit</td>
