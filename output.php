@@ -77,16 +77,7 @@ table tr:nth-child(odd) {
 
       ?>
 
-      <h3>
-        <?php
-        echo "$ttlbst <br>";
-        echo "$ttlndl<br>";
-        echo "$ttlbrd<br>";
-        echo "$ttlmlk<br>";
-        echo "$ttlegg<br>";
-        echo "$ttldhl<br>";
-
-        ?>
+      
       
       </h3>
       <h3>Thank you, sir/ma’am. Here’s your bill.</h3>
