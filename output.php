@@ -143,5 +143,5 @@ a:hover {
           <td><?php echo "$ttl" ?></td>
         </tr>
       </table>
-      <a href="index.html"> Go back</a>
+      <center><a href="index.html"> Go back</a></center>
 </html>
