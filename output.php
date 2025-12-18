@@ -56,6 +56,11 @@
           <th>Total Rs.</th>
         </tr>
         <tr>
+          <td>Biscuit</td>
+          <td><?php echo "$bst" ?></td>
+          <td><?php echo "$ttlbst" ?></td>
+        </tr>
+        <tr>
           <td>noodles</td>
           <td><?php echo "$ndl" ?></td>
           <td><?php echo "$ttlndl" ?></td>
@@ -65,15 +70,11 @@
           <td><?php echo "$brd" ?></td>
           <td><?php echo "$ttlbrd" ?></td>
         </tr>
+        
         <tr>
-          <td>Biscuit</td>
-          <td><?php echo "$bst" ?></td>
-          <td><?php echo "$ttlbst" ?></td>
-        </tr>
-        <tr>
-          <td>Biscuit</td>
-          <td><?php echo "$bst" ?></td>
-          <td><?php echo "$ttlbst" ?></td>
+          <td>Milk</td>
+          <td><?php echo "$mlk" ?></td>
+          <td><?php echo "$ttlmlk" ?></td>
         </tr>
         <tr>
           <td>Biscuit</td>
