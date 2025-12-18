@@ -1,4 +1,45 @@
 <html>
+  <style>
+    table {
+  width: 350px;
+  border-collapse: collapse;
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+  margin: 20px auto;
+  border: 1px solid #000;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px dashed #000;
+  padding: 6px 4px;
+  font-weight: bold;
+}
+
+td {
+  padding: 6px 4px;
+  border-bottom: 1px dotted #555;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+td[colspan="2"] {
+  font-weight: bold;
+  border-top: 1px dashed #000;
+  background: #f9f9f9;
+}
+
+table tr:nth-child(even) {
+  background-color: #fdfdfd;
+}
+
+table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+  </style>
     <h2>
         Your total bill..
     </h2>
