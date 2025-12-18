@@ -125,4 +125,5 @@ table tr:nth-child(odd) {
           <td><?php echo "$ttl" ?></td>
         </tr>
       </table>
+      <a href="index.html"> Go back</a>
 </html>
