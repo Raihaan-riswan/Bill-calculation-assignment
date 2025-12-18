@@ -38,6 +38,24 @@ table tr:nth-child(even) {
 table tr:nth-child(odd) {
   background-color: #ffffff;
 }
+a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  margin-top: 15px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 
   </style>
     
