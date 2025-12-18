@@ -49,7 +49,7 @@
       
       </h3>
       <h3>Thank you, sir/ma’am. Here’s your bill.</h3>
-      <table border = "1">
+      <table>
         <tr>
           <th>Items</th>
           <th>INumber of Items</th>
