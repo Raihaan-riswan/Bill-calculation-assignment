@@ -14,9 +14,20 @@
         $bst = $_POST["bst"];
         $ttlbst = $bst * 50;
 
-        // this is the code for total 
+        // this is the code for total noodles packs
         $ndl = $_POST["ndl"];
         $ttlndl = $ndl * 100;
+
+        // this is the code for total bread
+        $brd = $_POST["brd"];
+        $ttlbrd = $brd * 40;
+
+        // this is the code for total milk
+        $mlk = $_POST["mlk"];
+        $ttlmlk = $mlk * 60;
+        
+        
+
 
 
       ?>
@@ -25,6 +36,8 @@
         <?php
         echo "$ttlbst <br>";
         echo "$ttlndl<br>";
+        echo "$ttlbrd<br>";
+        echo "$ttlmlk<br>";
 
         ?>
       </h3>
